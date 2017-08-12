@@ -98,7 +98,8 @@ header{
 a.changepage-btn:hover {
   background-color: #D2B4DE ;
 }
-    
+ 
+/*
     @media screen and ( max-width:700px) {
         .container {
             width: 100%;
@@ -113,3 +114,38 @@ a.changepage-btn:hover {
             width: calc(100%);
         }
     }
+*/
+    	@media screen and (max-width: 1680px) {
+	    .changepage-btn {
+			width: 100%;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+		.changepage-btn {
+			width: 100%;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+		.changepage-btn {
+			width: 100%;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+		.changepage-btn {
+			width: 100%;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+		.changepage-btn {
+			width: 100% !important;
+		}
+
+	}
